@@ -1,0 +1,12 @@
+C:\Users\edwin\source\repos\SuperTienda\bin\Debug\SuperTienda.exe.config
+C:\Users\edwin\source\repos\SuperTienda\bin\Debug\SuperTienda.exe
+C:\Users\edwin\source\repos\SuperTienda\bin\Debug\SuperTienda.pdb
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.csproj.AssemblyReference.cache
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.Properties.Resources.resources
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.csproj.GenerateResource.cache
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.csproj.CoreCompileInputs.cache
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.exe
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.pdb
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.formularioPrincipal.resources
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.mostrarClientes.resources
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.RegistrarClientes.resources
