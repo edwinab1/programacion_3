@@ -20,7 +20,7 @@ namespace SuperTienda
         {
             InitializeComponent();
 
-            string consulta = "select * from selectEmpleados";
+            string consulta = "select * from vClientes";
 
             helper.sqlQuery(consulta);
 

@@ -17,6 +17,8 @@ public
 
         public string ci_nit { get; set; }
 
+        public int telefono { get; set; }
+
         public DateTime fecha_nac { get; set; }
 
 

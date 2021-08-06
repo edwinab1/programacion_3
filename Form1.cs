@@ -26,7 +26,7 @@ namespace SuperTienda
 
             panelMenu.BackColor = Color.FromArgb(59, 75, 100);
 
-            btnClientes.FlatAppearance.BorderColor = Color.FromArgb(20,255, 255, 255);
+            btnClientes.FlatAppearance.BorderColor = Color.FromArgb(20, 255, 255, 255);
             btnEmpleados.FlatAppearance.BorderColor = Color.FromArgb(59, 75, 100);
             btnProductos.FlatAppearance.BorderColor = Color.FromArgb(59, 75, 100);
 
@@ -40,7 +40,7 @@ namespace SuperTienda
         private void btnClientes_Click(object sender, EventArgs e)
         {
             mostrarClientes mostrarCli = new mostrarClientes();
-            mostrarCli.Show();
+            agregarFormularioAlpanel(mostrarCli);
         }
 
         private void btnEmpleados_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace SuperTienda
 
         private void panelHeader_MouseDown(object sender, MouseEventArgs e)
         {
-            arrastrar = true;  
+            arrastrar = true;
             window_location = new Point(e.X, e.Y);
         }
 
@@ -84,13 +84,36 @@ namespace SuperTienda
         {
             OpenFileDialog open = new OpenFileDialog();
             open.Filter = "Image Files(*.jpg;)|*.jpg";
-            if(open.ShowDialog()== DialogResult.OK)
+            if (open.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.Image = new Bitmap(open.FileName);
-                Console.WriteLine("FILENAME "+open.FileName);
-                Console.WriteLine("EXT "+open.DefaultExt);
+                Console.WriteLine("FILENAME " + open.FileName);
+                Console.WriteLine("EXT " + open.DefaultExt);
 
             }
         }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            Productos productos = new Productos();
+            agregarFormularioAlpanel(productos);
+        }
+
+        private void agregarFormularioAlpanel(Form form)
+        {
+            if (panelFormularios.Controls.Count > 0)
+            {
+                panelFormularios.Controls.Clear();
+                
+
+            }
+            form.TopLevel = false;
+            form.AutoScroll = true;
+
+            panelFormularios.Controls.Add(form);
+            form.Show();
+
+        }
+
     }
 }

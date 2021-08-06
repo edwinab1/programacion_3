@@ -10,3 +10,6 @@ C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.pdb
 C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.formularioPrincipal.resources
 C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.mostrarClientes.resources
 C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.RegistrarClientes.resources
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.Productos.resources
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.RegistrarProducto.resources
+C:\Users\edwin\source\repos\SuperTienda\obj\Debug\SuperTienda.DetalleProducto.resources

@@ -40,7 +40,7 @@ namespace SuperTienda
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btCerrar = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelFormularios = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -117,6 +117,7 @@ namespace SuperTienda
             this.btnProductos.TabIndex = 6;
             this.btnProductos.Text = "Productos";
             this.btnProductos.UseVisualStyleBackColor = true;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
             // panelLogo
             // 
@@ -194,13 +195,13 @@ namespace SuperTienda
             this.btCerrar.TabStop = false;
             this.btCerrar.Click += new System.EventHandler(this.btCerrar_Click);
             // 
-            // panel1
+            // panelFormularios
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(226, 40);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(821, 496);
-            this.panel1.TabIndex = 2;
+            this.panelFormularios.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFormularios.Location = new System.Drawing.Point(226, 40);
+            this.panelFormularios.Name = "panelFormularios";
+            this.panelFormularios.Size = new System.Drawing.Size(821, 496);
+            this.panelFormularios.TabIndex = 2;
             // 
             // formularioPrincipal
             // 
@@ -208,7 +209,7 @@ namespace SuperTienda
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(1047, 536);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelFormularios);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -240,7 +241,7 @@ namespace SuperTienda
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelFormularios;
     }
 }
 
